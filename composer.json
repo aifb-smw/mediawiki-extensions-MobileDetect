@@ -1,13 +1,15 @@
 {
+	"name" : "mediawiki/mobile-detect",
+	"version": "2.1",
+	"type": "mediawiki-extension",
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "1.0.0",
 		"jakub-onderka/php-console-highlighter": "0.3.2",
 		"mediawiki/minus-x": "0.3.1"
 	},
 	"require": {
-		"php": ">=7.0",
 		"composer/installers": "^1.0.12",
-		"mediawiki/mediawiki": ">=1.27",
+		"mediawiki/mediawiki": ">=1.15",
 		"mediawiki/mw-extension-registry-helper": "^1.0"
 	},
 	
